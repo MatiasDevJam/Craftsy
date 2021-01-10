@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home li{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+}
+
+.home a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+body{
+    background-image: url('../images/bg-2.png');
+}
+
+/*HEADER*/
+.home{
+    width: 1140px;
+}
+
+.home header{
+    background-color: orangered;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.home header img{
+    float: left;
+}
+
+.home header .lista1{
+    float: left;
+    padding: 10px;
+}
+
+.home header .lista2{
+    float: right;
+    padding: 10px;
+}
+
+.home header li{
+    padding: 10px;
+}
+
+/*FINALIZA HEADER*/
+
+/*Registro*/
+
+.home section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 350px;
+}
+
+.home section h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.home section form input:nth-child(-n+3){
+    width: 100%;
+    padding: 5px;
+}
+
+.home section form label:nth-child(-n+6){
+    padding: 2px;
+}
+
+.home section form p:nth-child(-n+12){
+    color: orangered;
+    margin: 2px 0 15px 0;
+}
+
+.home section form h2{
+    margin: 15px 0 15px 0;
+}
+
+.home section form select{
+    border-radius: 5px;
+    padding: 2px;
+    width: 60%;
+}
+
+.home section form label:nth-child(1n+4){
+    margin-left: 8px;
+    margin-bottom: 15px;
+}
+
+.home section form textarea{
+    width: 85%;
+    margin-bottom: 15px;
+}
+
+.home section form p:nth-child(1n+5){
+    margin: 15px 0 15px 0;
+}
+
+
+.home section form button{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(10, 128, 175);
+    padding: 8px 25px;
+    border: none;
+    border-radius: 8px;
+}
